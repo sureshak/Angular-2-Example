@@ -25,8 +25,7 @@ export class AppComponent {
   heroes = HEROES;
   selectedHero: Hero;
 
-  onSelect(hero: Hero): void {
-  	debugger
+  onSelect(hero: Hero): void { 
     this.selectedHero = hero;
   }
 
